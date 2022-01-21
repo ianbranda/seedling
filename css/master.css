@@ -93,6 +93,6 @@ body {
 		top: 10vh;
 	}
 	.typewriter {
-		animation: typing 4s steps(40, end), blink-caret 0.75s step-end 4;
+		animation: typing 4s steps(40, end), blink-caret 0.75s step-end 5;
 	}
 }
