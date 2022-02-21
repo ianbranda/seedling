@@ -4,10 +4,13 @@ $(function () {
 		.fadeIn(1500, function () {
 			$(".build").fadeIn(1500, function () {
 				$(".grow").fadeIn(1500, function () {
-					$(".seedling")
-						.removeClass("seedling")
-						.addClass("typewriter");
-					$(".coming-soon").delay(3500).fadeIn(1500);
+					$(".seedling").animate(
+						{ width: "toggle" },
+						2000,
+						function () {
+							$(".coming-soon").fadeIn(1500);
+						}
+					);
 				});
 			});
 		});
