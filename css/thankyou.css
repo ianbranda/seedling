@@ -13,7 +13,11 @@ body {
 }
 
 .nav-link {
-	color: #009e46;
+	color: #009e46 !important;
+}
+
+.nav-link:hover {
+	opacity: 0.6;
 }
 
 .message-main {
